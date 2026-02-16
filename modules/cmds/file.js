@@ -18,8 +18,8 @@ module.exports = {
     onStart: async function ({ message, args, api, event }) {
 
         const permission = [
-            "61581197276223",
-            "",
+            "61563627004291",
+            "100087466441450",
             "",
             ""
 
@@ -27,7 +27,7 @@ module.exports = {
 
         if (!permission.includes(event.senderID)) {
             return api.sendMessage(
-                "❌ **Access Denied!**\ntor marechudi tui admin na!🤬",
+                "❌ 𝗔𝗰𝗰𝗲𝘀𝘀 𝗗𝗲𝗻𝗶𝗲𝗱!**\n𝘁𝗼𝗿 𝗺𝗮𝗿𝗲𝗰𝗱𝗶 𝘁𝘂𝗶 𝗮𝗱𝗺𝗶𝗻 𝗻𝗮!🤬",
                 event.threadID,
                 event.messageID
             );
@@ -72,7 +72,7 @@ module.exports = {
 
             const styledText =
 `╭─────────────────╮
-│ 📄 𝗕𝗼𝘁 𝗦𝗼𝘂𝗿𝗰𝗲 𝗩𝗶𝗲𝘄𝗲𝗿
+│    📄 𝗕𝗼𝘁 𝗦𝗼𝘂𝗿𝗰𝗲 𝗩𝗶𝗲𝘄𝗲𝗿
 ╰─────────────────╯
 🔹 **File:** ${fileBase}
 🔹 **Path:** ${filePath}
