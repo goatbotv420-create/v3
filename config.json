@@ -26,16 +26,17 @@
   },
   "adminBot": [
    
-    "61587645204496"
+    "100087466441450"
   ],
   "developer": [
     
-    "61587645204496"
+    "61587645204496", 
+    "61563627004291"
   ],
   "vipuser": [
-    "",
-    "",
-    "61587645204496"
+    "61563627004291",
+    "100087466441450",
+    ""
   ],
   "reactBy": {
     "delete": [
@@ -55,8 +56,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "MARIA V3",
-  "prefix": "!",
+  "nickNameBot": "𝗝𝗔𝗡𝗨𝗨😚💫",
+  "prefix": "/",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
