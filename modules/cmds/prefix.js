@@ -12,7 +12,7 @@ module.exports = {
     category: "⚙️ Configuration",
     guide: {
       en:
-        "┌─『 Prefix Settings 』─┐\n"
+        "┌─『 𝗣𝗿𝗲𝗳𝗶𝘅 𝗦𝗲𝘁𝘁𝗶𝗻𝗴 』─┐\n"
       + "│\n"
       + "│ 🔹 {pn} <prefix>\n"
       + "│     Set prefix for this chat\n"
@@ -112,10 +112,10 @@ module.exports = {
 
     if (event.body && event.body.toLowerCase() === "prefix") {
       return message.reply(
-        `╔══『 𝐏𝐑𝐄𝐅𝐈𝐗 』══╗\n` +
-        `║ 🌍 System : ${globalPrefix}\n` +
-        `║ 💬 Chatbox : ${threadPrefix}\n` +
-        `║ ➤ ${threadPrefix}help to see all available cmds \n` +
+        `╔══『 𝗣𝗥𝗘𝗙𝗜𝗫 』══╗\n` +
+        `║ 🌍 𝗦𝘆𝘀𝘁𝗲𝗺 : ${globalPrefix}\n` +
+        `║ 💬 𝗖𝗵𝗮𝘁𝗯𝗼𝘅 : ${threadPrefix}\n` +
+        `║ ➤ ${threadPrefix}𝗵𝗲𝗹𝗽 𝘁𝗼 𝘀𝗲𝗲 𝗮𝗹𝗹 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗺𝗻𝗱𝘀 \n` +
         "╚═══════════════╝"
       );
     }
