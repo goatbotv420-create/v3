@@ -35,7 +35,7 @@ module.exports = {
         const start = 0;
         const currentList = formattedList.slice(start, start + 5);
 
-        const message = `╭─╮\n│𝐋𝐢𝐬𝐭 𝐨𝐟 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭𝐬:\n${currentList.join("\n")}\n╰───────────ꔪ`;
+        const message = `╭─╮\n│𝗟𝗶𝘀𝘁 𝗢𝗳 𝗚𝗿𝗼𝘂𝗽 𝗖𝗵𝗮𝘁:\n${currentList.join("\n")}\n╰───────────ꔪ`;
 
         const sentMessage = await api.sendMessage(message, event.threadID);
         global.GoatBot.onReply.set(sentMessage.messageID, {
@@ -77,7 +77,7 @@ module.exports = {
           `${nextPageStart + index + 1}. ${group.threadName}\n𝐓𝐈𝐃: ${group.threadID}`
         );
 
-        const message = `╭─╮\n│𝐋𝐢𝐬𝐭 𝐨𝐟 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭𝐬:\n${currentList.join("\n")}\n╰───────────ꔪ`;
+        const message = `╭─╮\n│𝗟𝗶𝘀𝘁 𝗢𝗳 𝗚𝗿𝗼𝘂𝗽 𝗖𝗵𝗮𝘁:\n${currentList.join("\n")}\n╰───────────ꔪ`;
 
         const sentMessage = await api.sendMessage(message, event.threadID);
         global.GoatBot.onReply.set(sentMessage.messageID, {
@@ -110,7 +110,7 @@ module.exports = {
           `${prevPageStart + index + 1}. ${group.threadName}\n𝐓𝐈𝐃: ${group.threadID}`
         );
 
-        const message = `╭─╮\n│𝐋𝐢𝐬𝐭 𝐨𝐟 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭𝐬:\n${currentList.join("\n")}\n╰───────────ꔪ`;
+        const message = `╭─╮\n│𝗟𝗶𝘀𝘁 𝗢𝗳 𝗴𝗿𝗼𝘂𝗽 𝗖𝗵𝗮𝘁:\n${currentList.join("\n")}\n╰───────────ꔪ`;
 
         const sentMessage = await api.sendMessage(message, event.threadID);
         global.GoatBot.onReply.set(sentMessage.messageID, {
